@@ -1,4 +1,4 @@
-# 🏃‍♂️ Sonic Jump Game
+# 🏃‍♂️ Dino Clone
 
 Um jogo de corrida infinita inspirado no clássico "Dino Run", desenvolvido com tecnologias web fundamentais. O objetivo é ajudar o Sonic a desviar de obstáculos (espinhos) saltando no momento certo.
 
