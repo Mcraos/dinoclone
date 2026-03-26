@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #333;
+}
+
+.absolute{
+	position: absolute;
+}
+
+.caixa{
+	margin: 0 auto;
+	width: 80%;
+	height: 500px;
+	border: 1px solid #333;
+	border-bottom: 15px solid #22FF33;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(#87CEED, #E0F6FF);
+}
+
+.overtextI{
+	text-align: center;
+	margin-top: 60px;
+	font-family: Franklin Gothic Demi;
+	font-size: 60px;
+	color: #222;
+	display: none;
+}
+
+.overtextII{
+	text-align: center;
+	margin-top: 60px;
+	font-family: Franklin Gothic Demi;
+	font-size: 40px;
+	color: #222;
+	display: none;
+}
+
+.spike{
+	
+	bottom: 0;
+	width: 100px;
+	animation: spike-animation 2.5s infinite linear;
+}
+
+.sonic {
+	
+	bottom: 0;
+	width: 110px;
+}
+
+.explo{
+	
+	bottom: 0;
+	width: 110px;
+	display: none;
+}
+
+.jump{
+	animation: jump 500ms ease-out;
+}
+
+
+
+@keyframes spike-animation{
+	from{
+		right: -11%;
+	}
+	
+	to{
+		right: 100%;
+	}
+}
+
+@keyframes jump{
+	0%{
+		bottom: 0;
+	}
+	
+	50%{
+		bottom: 150PX;
+	}
+	
+	60%{
+		bottom: 150px;
+	}
+	
+	70%{
+		bottom: 150px;
+	}
+	
+	100%{
+		bottom: 0;
+	}
+}
